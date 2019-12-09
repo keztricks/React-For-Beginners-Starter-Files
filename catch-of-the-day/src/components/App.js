@@ -9,9 +9,9 @@ class App extends React.Component {
             <div className="catch-of-the-day">
                 <div className="menu">
                     <Header />
-                    <Inventory />
-                    <Order />
                 </div>
+                <Inventory />
+                <Order />
             </div>
         );
     }
