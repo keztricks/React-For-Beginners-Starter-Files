@@ -2,12 +2,12 @@ import React from "react";
 import { getFunName } from "../helpers";
 
 class StorePicker extends React.Component {
-    MyInput = React.createRef();
+    myInput = React.createRef();
 
     goToStore = event => {
         event.preventDefault();
 
-        console.log(this);
+        console.log(this.myInput.current.value);
     };
 
     render() {
